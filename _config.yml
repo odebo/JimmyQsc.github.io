@@ -11,7 +11,7 @@ email: marioqsc2013@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi! I'm Jimmy, I'm new here
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jimmyqsc.github.io" # the base hostname & protocol for your site
+url: "https://jimmyqsc.github.me" # the base hostname & protocol for your site
 github_username:  JimmyQsc
 
 # Build settings
