@@ -8,11 +8,22 @@
 # Site settings
 title: Jimmy Q
 email: marioqsc2013@hotmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi! I'm Jimmy, I'm new here
+description: This is my blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jimmyqsc.github.io" # the base hostname & protocol for your site
 github_username:  JimmyQsc
+bg-img: http://i.niupic.com/images/2016/08/10/gr1SMB.jpg
 
 # Build settings
 markdown: kramdown
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      author: Jimmy Q
+      layout: 'post'
+

@@ -1,8 +1,8 @@
-<header class="site-header">
+<header class="site-header" style="background-image:url({% if page.bg-img %}{{ page.bg-img }}{% else %}{{ site.bg-img }}{% endif %})">
 
   <div class="container">
     <div class="row">
-      <div class="header-title col-xs-12 col-sm-6">
+      <div class="col-xs-12 col-sm-6">
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
@@ -16,7 +16,6 @@
           {% endfor %}
       </nav>
     </div>
-
     </div>
   </div>
 
