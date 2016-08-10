@@ -10,16 +10,18 @@
 }
 
 .site-header .container {
-    width: 95%;
-    max-width: 1200px;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    width: 100%;
+    //@extend .wrapper;
 }
 
 
 .site-title {
     padding-top: 0.5em;
     display: inline-block;
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 600;
     color: #fff;
     text-decoration: none;
     &:hover {
