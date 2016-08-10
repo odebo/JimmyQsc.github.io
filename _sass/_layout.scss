@@ -2,11 +2,13 @@
  * Site header
  */
 .site-header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#015352+0,6f996a+72,a7b3a2+100 */
 background: #015352; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #015352 0%, #137a67 37%, #278f80 65%, #638e63 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #015352 0%,#137a67 37%,#278f80 65%,#638e63 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #015352 0%,#137a67 37%,#278f80 65%,#638e63 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015352', endColorstr='#638e63',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background: -moz-linear-gradient(-45deg,  #015352 0%, #6f996a 72%, #a7b3a2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #015352 0%,#6f996a 72%,#a7b3a2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #015352 0%,#6f996a 72%,#a7b3a2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015352', endColorstr='#a7b3a2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 
     text-align: center;
     @media screen and (min-width: 768px) {
