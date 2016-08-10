@@ -41,6 +41,9 @@
         text-align: left;
         padding-top: 1em;
     }
+    @include media-query($on-palm) {
+        padding-top: 1em;
+    }
 }
 
 .header-title {
@@ -67,7 +70,7 @@
         color: #ddd;
     }
     @include media-query($on-palm) {
-        padding: 0 5%;
+        padding: 0 10%;
     }
 }
 
