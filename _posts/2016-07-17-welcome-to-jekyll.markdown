@@ -4,7 +4,7 @@ date:   2016-07-17 18:21:48 +0800
 categories: jekyll update
 author: Jekyll
 permalink: hahahahaha
-bg-img: /img/bg-1.jpg
+bg-img: http://i.niupic.com/images/2016/08/10/vHRiPJ.jpg
 ---
 
 
