@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015352', end
     color: #fff;
     text-decoration: none;
     &:hover {
-        color: #aaa;
+        color: #a3bEa3;
         text-decoration: none;
     }
     @media screen and (min-width: 768px) {
@@ -63,6 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015352', end
     font-size: 14px;
     display: inline-block;
     font-weight: 200;
+    text-decoration: underline;
     padding: 0.2em 0.5em;
     color: #fff;
     text-transform: uppercase;
