@@ -1,5 +1,6 @@
 # My jekyll blog
 
-    [Jimmy Q's blog](jimmyqsc.github.io)
+[Jimmy Q's blog](https://jimmyqsc.github.io)
 
-    Theme by me
+## Theme 
+Theme customized based on jekyll's base theme by me.
