@@ -27,4 +27,5 @@ defaults:
     values:
       author: Jimmy Q
       layout: 'post'
+      comments: true
 
