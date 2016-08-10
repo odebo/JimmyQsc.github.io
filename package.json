@@ -1,0 +1,19 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "jekyll blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyQsc/JimmyQsc.github.io.git"
+  },
+  "author": "Jimmy Q",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyQsc/JimmyQsc.github.io/issues"
+  },
+  "homepage": "https://github.com/JimmyQsc/JimmyQsc.github.io#readme"
+}
