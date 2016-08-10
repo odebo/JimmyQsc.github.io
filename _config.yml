@@ -17,7 +17,7 @@ paginate: 5
 
 # Build settings
 markdown: kramdown
-exclude: README.md
+exclude: [README.md]
 
 # Default settings
 defaults:
