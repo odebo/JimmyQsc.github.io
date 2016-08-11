@@ -42,20 +42,31 @@
         padding-top: 1em;
     }
     @include media-query($on-palm) {
-        padding-top: 1em;
+        padding-top: 0.5em;
+    }
+}
+
+.header-titles {
+    padding-top: 0.5em;
+    color: #fff;
+    font-size: $title-font-size;
+    text-shadow: 1px 1px 10px #555;
+    @media screen and (min-width: 768px) {
+        padding: 3em 0 0.5em;
     }
 }
 
 .header-title {
-    padding-top: 0.2em;
     font-weight: 700;
     font-size: $title-font-size;
-    color: #fff;
-    text-shadow: 1px 1px 10px #555;
     @media screen and (min-width: 768px) {
-        padding: 2em 0 0.2em;
         font-size: 48px;
     }
+}
+
+.header-subtitle {
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .page-link {
@@ -70,13 +81,8 @@
         color: #ddd;
     }
     @include media-query($on-palm) {
-        padding: 0 10%;
+        padding: 0 5%;
     }
-}
-
-.home-statement {
-    display: inline－block;
-    letter-spacing: 0.05em;
 }
 
 /**

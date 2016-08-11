@@ -10,24 +10,32 @@
 
     <div class="col-xs-12 col-sm-6">
       <nav class="site-nav">
-          <a class="page-link" href="{{ site.baseurl }}/">home</a>
+          <a class="page-link" href="{{ site.baseurl }}/">首页</a>
           {% for my_page in site.pages %}
             {% if my_page.title %}
             <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             {% endif %}
           {% endfor %}
+          <a class="page-link" href="https://jimmyqsc.github.io/Resume_page-UD/">简历</a>
       </nav>
     </div>
     </div>
   </div>
 
   <div class="wrapper">
+    <div class="header-titles">
       <h1 class="header-title">
         {% if page.title %}
            {{ page.title }}
            {% else %}
-              <span class="home-statement"><  Every Thing is Awesome_  ></span>
+              Every Thing is Awesome
         {% endif %}
       </h1>
+      <h3 class="header-subtitle">
+        {% if page.subtitle %}
+           {{ page.subtitle }}
+        {% endif %}
+      </h3>
+    </div>
   </div>
 </header>
