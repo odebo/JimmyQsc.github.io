@@ -72,8 +72,6 @@
 .page-link {
     font-size: 14px;
     display: inline-block;
-    font-weight: 200;
-    text-decoration: underline;
     color: #fff;
     padding-left: 2em;
     text-transform: uppercase;
@@ -189,6 +187,12 @@
     font-weight: 700;
     display: block;
     font-size: 24px;
+}
+
+.link-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .post-excerpt a {

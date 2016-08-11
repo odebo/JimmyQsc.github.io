@@ -10,9 +10,12 @@ layout: default
     {% for post in paginator.posts %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+            <p class="link-subtitle">
+              {{ post.subtitle }}
+            </p>
+          </a>
         </h2>
-
         <p class="post-excerpt"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt }}</a></p>
 
         <div class="post-meta">
