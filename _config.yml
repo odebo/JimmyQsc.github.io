@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jimmy Q
+title: Jimmy Q的博客
 email: marioqsc2013@hotmail.com
-description: This is my blog
+description: 我是jimmy，我在这里记录我的学习
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jimmyqsc.github.io" # the base hostname & protocol for your site
 github_username:  JimmyQsc
@@ -31,6 +31,7 @@ defaults:
       path: ""
       type: 'posts'
     values:
+      is_post: true
       author: Jimmy Q
       layout: 'post'
       comments: true

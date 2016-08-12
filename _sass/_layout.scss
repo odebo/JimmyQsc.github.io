@@ -16,7 +16,6 @@
     //@extend .wrapper;
 }
 
-
 .site-title {
     padding-top: 0.5em;
     display: inline-block;
@@ -50,6 +49,7 @@
     padding-top: 0.5em;
     color: #fff;
     font-size: $title-font-size;
+    text-align: center;
     text-shadow: 1px 1px 10px #555;
     @media screen and (min-width: 768px) {
         padding: 3em 0 0.5em;
@@ -69,12 +69,20 @@
     font-weight: 400;
 }
 
+.align-left {
+    text-align: left;
+    @media screen and (min-width: 768px) {
+        padding: 3em 0 0;
+    }
+}
+
 .page-link {
     font-size: 14px;
     display: inline-block;
     color: #fff;
     padding-left: 2em;
     text-transform: uppercase;
+    font-weight: 800;
     &:hover {
         color: #ddd;
     }

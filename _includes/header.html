@@ -23,7 +23,7 @@
   </div>
 
   <div class="wrapper">
-    <div class="header-titles">
+    <div class="header-titles {% if page.is_post %}align-left{% endif %}">
       <h1 class="header-title">
         {% if page.title %}
            {{ page.title }}
