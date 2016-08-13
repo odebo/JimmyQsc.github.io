@@ -8,7 +8,7 @@ permalink: my-jquery-part2
 ---
 ------> Continue Part 1. 继续实现 jQuery Functional Utilities。
 
-### _$.each(collection, cd)_ 遍历一个集合（不一定是数组），对其每一个元素执行cb
+### _$.each(collection, cb)_ 遍历一个集合（不一定是数组），对其每一个元素执行cb
 
 JavaScript数组有 forEach()函数， $.each()与之类似。
 
