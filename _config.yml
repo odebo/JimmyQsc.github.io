@@ -12,7 +12,7 @@ description: 我是jimmy，我在这里记录我的学习
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jimmyqsc.github.io" # the base hostname & protocol for your site
 github_username:  JimmyQsc
-bg-img: http://i.niupic.com/images/2016/08/10/gr1SMB.jpg
+bg-img: /images/header-bg.jpg
 paginate: 5
 home_message: Every Thing is Awesome
 highlighter: rouge

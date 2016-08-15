@@ -1,5 +1,5 @@
 ---
-title: 响应式图片（responsive images）
+title: (Responsive images)响应式图片
 subtitle: 优化网页上的图片元素，获得更好的用户体验
 date: 2016-08-13
 categories: 笔记

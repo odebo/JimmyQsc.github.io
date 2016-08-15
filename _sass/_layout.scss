@@ -21,11 +21,11 @@
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
-    color: #b9c2c9;
+    color: #eee;
     text-decoration: none;
     &:hover {
         text-shadow: 1px 1px 5px #666;
-        color: #ddd;
+        color: #fff;
         text-decoration: none;
     }
     @media screen and (min-width: 768px) {
@@ -57,7 +57,7 @@
 }
 
 .header-title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: $title-font-size;
     @media screen and (min-width: 768px) {
         font-size: 48px;
@@ -97,17 +97,18 @@
 }
 
 .page-link {
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
-    color: #b9c2c9;
+    color: #eee;
     padding-left: 2em;
     text-transform: uppercase;
     font-weight: 800;
     &:hover {
-        color: #eee;
+        color: #fff;
     }
     @include media-query($on-palm) {
         padding: 0 5%;
+        font-size: 16px
     }
 }
 
