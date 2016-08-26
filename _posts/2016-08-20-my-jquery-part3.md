@@ -1,7 +1,7 @@
 ---
 title: My jQuery ( part 3 )
 subtitle: 继续extend jQuery
-date: 2016-08-13
+date: 2016-08-20
 categories: 笔记
 author: Jimmy Q
 permalink: my_jquery_p3
