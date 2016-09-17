@@ -45,13 +45,13 @@ var c = function() { //js引擎：我认识c，我现在对它赋值,但我不�
 
 通过上面的例子，关于scope我们可以总结出两点：
 
-1. 除了global scope以外，每次**执行**函数体时都会为这个函数创建独立的scope，请记住，每次执行时都会创建，只有在执行这个函数时，JS引擎才回关心它的内容，这是由javascript的运行方式决定的。
+1. 除了global scope以外，每次**执行**函数体时都会为这个函数创建独立的scope，每次执行时都会创建，只有在执行这个函数时，JS引擎才会关心它的内容，这是由javascript的运行方式决定的。
 
 2. 函数和变量声明是在编译阶段完成的，即使你把他们写在程序的最末尾，他们也是最先被JS引擎知道的（这就是hoist的概念）。
 
 ## JavaScript中的local scope只有function scope
 
-scope在编程语言中是个重要的概念，一个变量是否可以被使用取决于他所在的scope。如果你把scope看作对象的话，就会很容易理解。每个程序的执行，都会创建一个唯一的global scope对象，然后每次调用一个函数，都会为这次调用创建一个scope 对象。所以如果你想要在global scope中嵌套的local scope，唯一的方法就是声明并执行一个函数。local scope中当然也可以嵌套scope。
+scope在编程语言中是个重要的概念，一个变量是否可以被使用取决于他所在的scope。如果你把scope看作对象的话，就会很容易理解。每个程序的执行（一个网页，一个app），都会创建一个唯一的global scope对象，然后每次调用一个函数，都会为这次调用创建一个scope 对象。所以如果你想要在global scope中嵌套的local scope，唯一的方法就是声明并执行一个函数。local scope中当然也可以嵌套scope。
 
 程序在执行阶段，特定一段代码如果要访问一个变量，js引擎会从离他最近的scope开始向外查找，依次访问包含他的scope object，直到查找到这个变量，如果找到最外面的global scope还未找到这个变量，就会把这个变量注册到global scope中（它的初始值是undefined），继续使用它。
 
