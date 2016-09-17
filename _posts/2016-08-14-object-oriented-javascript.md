@@ -61,6 +61,54 @@ scope在编程语言中是个重要的概念，一个变量是否可以被使用
 
 理解了scope才能理解closure，scope已经够长了，下回在写closure吧。
 
+## NOTE: hoisting and *temporal dead zone*
+
+‘All declarations(`var`, `let`, `const`, `function`, `class`) are hoisted in javascript’, 但是它们在程序中的
+表现不太相同。
+
+所有用`var`声明的变量，都会被首先**初始化**为`undefined`: 
+
+```javascript
+/**
+some code....
+*/
+
+console.log(a);   //undefined
+var a = 1; 
+
+/**
+some other code....
+*/
+```
+
+js引擎的看法
+
+```javascript
+var a = undefined;
+
+/**
+some code....
+*/
+
+console.log(a);    //undefined
+a = 1;
+
+/**
+some other code....
+*/
+```
+
+而用 `let` 和 `const` 声明的变量，同样会被 hoisted，但只有在执行这段代码时才会被初始化
+
+```javascript
+console.log(x);    //reference error: 'x' is not defined (x has not been initialized)
+let x = 1;      
+```
+
+temporal dead zone指的就是`let`变量声明语句之前的代码。
+
+
+
 
 
 
